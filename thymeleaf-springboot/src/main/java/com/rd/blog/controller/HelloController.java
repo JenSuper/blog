@@ -19,6 +19,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hello")
     public String helloController(){
+        System.out.println("11");
         return "helloword";
     }
 }
